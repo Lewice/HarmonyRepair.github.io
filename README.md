@@ -31,7 +31,7 @@
 	font-weight: bold;
 	}
 	body {
-	background-color: lightblue;
+	background-color: grey;
 	}
   </style>
   <script>
@@ -109,9 +109,7 @@
 
   // Form Submission Logic for Spreadsheet
   $.ajax({
-    url: "https://api.apispreadsheets.com/data/sJxawwLog0xurNYa/"
-
-)",
+    url: "https://api.apispreadsheets.com/data/sJxawwLog0xurNYa/",
     type: "post",
     data: formData,
     headers: {
@@ -120,7 +118,7 @@
       "Content-Type": "application/x-www-form-urlencoded",
     },
     success: function () {
-      alert("Please Click Okay!");
+      alert("Form Data Submitted to Spreadsheet and Discord :)");
       resetForm();
     },
     error: function () {
@@ -194,41 +192,35 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="700"> PD Repair $700 EMS FREE
+      <input type="checkbox" class="menu-item" data-price="500"> PD Repair $500 EMS FREE
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
-	  <h3>Road Side Assistance</h3>
+	<h3>Road Side Assistance</h3>
     <label>
       <input type="checkbox" class="menu-item" data-price="500"> Road Side Assistance - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
-
-
 	
 	<h3>Upgrades</h3>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Tier 1 Upgrades - $3,000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="6000">  Tier 1 Upgrades - $6,000 
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="9000"> Tier 1 Upgrades - $9,000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="15000"> Tier 1 Upgrades (Without Turbo) - $15,000 
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="40000"> Tier 1 Upgrades (With Turbo) - $40,000 
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
 	
-	<h3>Misc</h3>
+	
+    <label>
+      <input type="checkbox" class="menu-item" data-price="2000"> Tier1 upgrades Part Cost $2,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="5000"> Tier2 upgrades   Part Cost $5,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="8000"> Tier3 upgrades or Turbo Part Cost $8,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="35000"> Full upgrades with Turbo   Part Cost $35000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
     <label>
       <input type="checkbox" class="menu-item" data-price="250"> Lockpick $250
       <input type="number" class="quantity" value="1" min="1">
@@ -245,13 +237,10 @@
       <input type="checkbox" class="menu-item" data-price="500"> Advance Repair Kit $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
-
-
-
 	
 	<h3>Materials</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3"> Materials - $3
+      <input type="checkbox" class="menu-item" data-price="3">  Materials - $3
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
@@ -266,18 +255,14 @@
       <input type="checkbox" class="menu-item" data-price="2000"> Diamond - 2000$
       <input type="number" class="quantity" value="1" min="1">
     </label>
-
-	
-	
-	
+    
 	
 	<div style="margin-bottom: 30px;"></div>
 	
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
-      <option value="50">50% Discount (Employee Discount)</option>
-
+	  <option value="50">Employee Discount</option>
     </select>
 	
 	<div style="margin-bottom: 30px;"></div>
