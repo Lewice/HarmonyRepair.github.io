@@ -221,6 +221,8 @@
       <input type="checkbox" class="menu-item" data-price="35000"> Full upgrades with Turbo - $35000
       <input type="number" class="quantity" value="1" min="1">
     </label>
+
+    <h3>Misc</h3>
     <label>
       <input type="checkbox" class="menu-item" data-price="250"> Lockpick - $250
       <input type="number" class="quantity" value="1" min="1">
