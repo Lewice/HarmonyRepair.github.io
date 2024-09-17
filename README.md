@@ -206,35 +206,35 @@
 	
 	
     <label>
-      <input type="checkbox" class="menu-item" data-price="2000"> Tier1 upgrades Part Cost $2,000
+      <input type="checkbox" class="menu-item" data-price="2000"> Tier 1 Upgrade -  $2,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Tier2 upgrades   Part Cost $5,000
+      <input type="checkbox" class="menu-item" data-price="5000"> Tier 2 Upgrade -  $5,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="8000"> Tier3 upgrades or Turbo Part Cost $8,000
+      <input type="checkbox" class="menu-item" data-price="8000">  Tier 3 Upgrade No Turbo -  $8,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="35000"> Full upgrades with Turbo   Part Cost $35000
+      <input type="checkbox" class="menu-item" data-price="35000"> Full upgrades with Turbo - $35000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="250"> Lockpick $250
+      <input type="checkbox" class="menu-item" data-price="250"> Lockpick - $250
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1200"> Advance Lockpick $1200
+      <input type="checkbox" class="menu-item" data-price="1200"> Advance Lockpick - $1200
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="250"> Repair Kit $250
+      <input type="checkbox" class="menu-item" data-price="250"> Repair Kit - $250
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="500"> Advance Repair Kit $500
+      <input type="checkbox" class="menu-item" data-price="500"> Advance Repair Kit - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
