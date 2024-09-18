@@ -188,7 +188,7 @@
   <form id="menuForm">
   <h3>Repairs</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Full Repair $1,000
+      <input type="checkbox" class="menu-item" data-price="800"> Full Repair $800
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
